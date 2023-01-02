@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 1;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.nav:hover{
+    font-size: 35px;
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#Home{
+    background-image: linear-gradient(to bottom right,red, green);
+
+}
